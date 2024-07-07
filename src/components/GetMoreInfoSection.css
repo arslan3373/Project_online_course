@@ -1,0 +1,86 @@
+
+
+.containerr {
+      background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 70vh;
+    width: 100%;
+  }
+  
+  .cardd {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e2d;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    /* width: 100%; */
+    gap: 1rem;
+  }
+  @media (max-width:450px) {
+    .containerr{
+      margin-top: 5rem;
+    }
+    .cardd {
+        /* background-color: green; */
+        max-width: 340px;
+    }
+  }
+  .contentt {
+    flex: 1;
+    color: white;
+    padding-right: 20px;
+    /* background-color: red; */
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    font-size: 40px;
+    margin-bottom: 40px;
+   line-height: 3rem;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button.primary {
+    background-color: #ff7a29;
+    color: white;
+  }
+  
+  .button:not(.primary) {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .image-placeholder {
+    width: 400px;
+    height: 400px;
+    background-color: #e1e4e8;
+    border-radius: 10px;
+  }
+  

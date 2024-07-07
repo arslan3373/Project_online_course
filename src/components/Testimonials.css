@@ -1,0 +1,124 @@
+/* src/Testimonials.css */
+.testimonials-section {
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .heading-with-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20rem;
+    flex-wrap: wrap;
+    margin: 2rem  0rem;
+  }
+  @media (max-width:778px) {
+    .heading-with-buttons {
+        
+            gap: 5rem;
+    }
+  }
+  .testimonials-buttons {
+    margin-right: 20px;
+  }
+  
+  .testimonials-buttons button {
+    background: none;
+    /* border: 2px solid black; */
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .testimonials-buttons button:hover {
+    background-color: white;
+    color: #1a1a3c;
+  }
+  
+  .heading-text {
+    text-align: left;
+  }
+  
+  .heading-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .heading-text p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: #c6c6e6;
+  }
+  .shopif{
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #1d1d1f;
+  }
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    /* margin: 2rem 7rem; */
+   flex-wrap: wrap; 
+
+  }
+  
+  .testimonial {
+    background-color: white;
+    /* background-color: red; */
+    min-height: 250px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    color: black;
+  }
+  
+  .stars {
+    color: orange;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+  }
+  .atrrr{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0rem 1rem; */
+  }
+  .testimonial-text {
+    margin: 10px 0;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+  }
+  
+  .testimonial-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 100%;
+    margin-top: -5rem;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .testimonial-position {
+    color: gray;
+  }
+  
